@@ -14,7 +14,7 @@ Sender --> |line-by-line-via-console|Receiver
 Receiver --> |statistics|C((Output))
 ```
 
-The Sender processes simulated sensor data and outputs line-by-line to the console.
+The Sender simulates and processes data from sensors. It sends data line-by-line to the console, in a format that it defines.
 The Receiver inputs this data and computes statistics.
 
 The Sender sends data to the Receiver using [console redirection and pipes](https://ss64.com/nt/syntax-redirection.html).
