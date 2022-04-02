@@ -46,8 +46,8 @@ The Sender and Receiver are testable on their own:
 
 - The Sender is testable without the Receiver - so we can develop
 for another sensor, test and be confident about integration.
-- The Receiver is testable without the Sender - so we can enhance
-without re-testing against all Receivers again.
+- The Receiver is testable without the Sender - so we can enhance with additional statistics,
+without re-testing against all Senders again.
 
 ## Decomposition of responsibility
 
