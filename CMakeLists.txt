@@ -18,8 +18,6 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-file(GLOB SOURCES "*.cpp")
-add_executable(
-    main
-  ${SOURCES}
-)
+add_executable(Sender Sender.cpp)
+
+add_executable(Processor Processor.cpp)
